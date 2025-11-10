@@ -1,0 +1,400 @@
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+
+
+Variable: init
+Type: integer
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+(0)	19980201
+
+
+Variable: ens
+Type: string
+Total Size: 8 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+(0)	e01
+(0)	Script started at: Mon Oct  6 21:52:14 AEDT 2025
+
+Variable: coord_model
+Type: float
+Total Size: 3290414400 bytes
+            822603600 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 21] x [lat | 325] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [ 1..1000]
+            lat: [-90..90]
+            lon: [ 0..359.1667]
+Number Of Attributes: 9
+  _FillValue :	-1.073742e+09
+  stash_item :	203
+  stash_model :	1
+  lookup_source :	defaults (cdunifpp V0.14pre1)
+  units :	m s-1
+  stash_section :	30
+  missing_value :	-1.073742e+09
+  long_name :	W COMPNT OF WIND ON P LEV/UV GRID
+  standard_name :	upward_air_velocity
+
+
+Variable: lev
+Type: float
+Total Size: 12 bytes
+            3 values
+Number of Dimensions: 1
+Dimensions and sizes:	[z1_p_level | 3]
+Coordinates: 
+Number Of Attributes: 5
+  axis :	Z
+  long_name :	air pressure (vertical level)
+  positive :	down
+  standard_name :	air_pressure
+  units :	mb
+(0)	700
+(1)	850
+(2)	925
+(0)	short2flt: input variable is already type float: W COMPNT OF WIND ON P LEV/UV GRID
+(0)	short2flt: no conversion performed
+(0)	short2flt: input variable is already type float: U COMPNT OF WIND ON P LEV/UV GRID
+(0)	short2flt: no conversion performed
+(0)	short2flt: input variable is already type float: V COMPNT OF WIND ON P LEV/UV GRID
+(0)	short2flt: no conversion performed
+(0)	Reading variables...
+
+Variable: w
+Type: float
+Total Size: 183684672 bytes
+            45921168 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 3] x [lat | 127] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [700..925]
+            lat: [-35..35]
+            lon: [ 0..359.1667]
+Number Of Attributes: 9
+  standard_name :	upward_air_velocity
+  long_name :	W COMPNT OF WIND ON P LEV/UV GRID
+  missing_value :	-1.073742e+09
+  stash_section :	30
+  units :	m s-1
+  lookup_source :	defaults (cdunifpp V0.14pre1)
+  stash_model :	1
+  stash_item :	203
+  _FillValue :	-1.073742e+09
+
+Variable: u
+Type: float
+Total Size: 183684672 bytes
+            45921168 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 3] x [lat | 127] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [700..925]
+            lat: [-35..35]
+            lon: [ 0..359.1667]
+Number Of Attributes: 9
+  standard_name :	eastward_wind
+  long_name :	U COMPNT OF WIND ON P LEV/UV GRID
+  missing_value :	-1.073742e+09
+  stash_section :	30
+  units :	m s-1
+  lookup_source :	defaults (cdunifpp V0.14pre1)
+  stash_model :	1
+  stash_item :	201
+  _FillValue :	-1.073742e+09
+
+Variable: v
+Type: float
+Total Size: 183684672 bytes
+            45921168 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 3] x [lat | 127] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [700..925]
+            lat: [-35..35]
+            lon: [ 0..359.1667]
+Number Of Attributes: 9
+  standard_name :	northward_wind
+  long_name :	V COMPNT OF WIND ON P LEV/UV GRID
+  missing_value :	-1.073742e+09
+  stash_section :	30
+  units :	m s-1
+  lookup_source :	defaults (cdunifpp V0.14pre1)
+  stash_model :	1
+  stash_item :	202
+  _FillValue :	-1.073742e+09
+(0)	u contains missing values
+(0)	u filled
+(0)	v contains missing values
+(0)	v filled
+(0)	w contains missing values
+(0)	w filled
+(0)	Calculating vorticity and divergence...
+
+Variable: vr
+Type: float
+Total Size: 183684672 bytes
+            45921168 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 3] x [lat | 127] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [700..925]
+            lat: [-35..35]
+            lon: [ 0..359.1667]
+Number Of Attributes: 3
+  units :	s^-1
+  long_name :	Vorticity
+  _FillValue :	-1.073742e+09
+(0)	Vorticity (s^-1) : min=-0.000655745   max=0.000688209
+
+Variable: div
+Type: float
+Total Size: 183684672 bytes
+            45921168 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 3] x [lat | 127] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [700..925]
+            lat: [-35..35]
+            lon: [ 0..359.1667]
+Number Of Attributes: 3
+  units :	s^-1
+  long_name :	Divergence
+  _FillValue :	-1.073742e+09
+(0)	Divergence (s^-1) : min=-0.000508328   max=0.000300534
+(0)	Calculating vorticity tendency...
+
+Variable: dvr_dt
+Type: float
+Total Size: 183684672 bytes
+            45921168 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 3] x [lat | 127] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [700..925]
+            lat: [-35..35]
+            lon: [ 0..359.1667]
+Number Of Attributes: 3
+  units :	s^-2
+  long_name :	Local time derivative of horizontal wind
+  _FillValue :	-1.073742e+09
+(0)	Local time derivative of horizontal wind (s^-2) : min=-8.18243e-09   max=8.205e-09
+(0)	Calculating vorticity advection...
+
+Variable: adv_vr_zonal
+Type: float
+Total Size: 183684672 bytes
+            45921168 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 3] x [lat | 127] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [700..925]
+            lat: [-35..35]
+            lon: [ 0..359.1667]
+Number Of Attributes: 3
+  units :	s^-2
+  long_name :	Zonal advection of relative vorticity
+  _FillValue :	-1.073742e+09
+(0)	Zonal advection of relative vorticity (s^-2) : min=-8.3843e-08   max=8.66328e-08
+
+Variable: adv_vr_meridional
+Type: float
+Total Size: 183684672 bytes
+            45921168 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 3] x [lat | 127] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [700..925]
+            lat: [-35..35]
+            lon: [ 0..359.1667]
+Number Of Attributes: 3
+  units :	s^-2
+  long_name :	Meridional advection of relative vorticity
+  _FillValue :	-1.073742e+09
+(0)	Meridional advection of relative vorticity (s^-2) : min=-1.19344e-07   max=1.29836e-07
+
+Variable: adv_vr_vertical
+Type: float
+Total Size: 183684672 bytes
+            45921168 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 3] x [lat | 127] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [700..925]
+            lat: [-35..35]
+            lon: [ 0..359.1667]
+Number Of Attributes: 3
+  units :	s^-2
+  long_name :	Vertical advection of relative vorticity
+  _FillValue :	-1.073742e+09
+(0)	Vertical advection of relative vorticity (s^-2) : min=-9.84782e-07   max=1.21499e-06
+
+Variable: adv_vr
+Type: float
+Total Size: 183684672 bytes
+            45921168 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 3] x [lat | 127] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [700..925]
+            lat: [-35..35]
+            lon: [ 0..359.1667]
+Number Of Attributes: 3
+  units :	s^-2
+  long_name :	Advection of relative vorticity
+  _FillValue :	-1.073742e+09
+(0)	Advection of relative vorticity (s^-2) : min=-1.00008e-06   max=1.21724e-06
+(0)	Calculating Vortex Stretching...
+
+Variable: vrD
+Type: float
+Total Size: 183684672 bytes
+            45921168 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 3] x [lat | 127] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [700..925]
+            lat: [-35..35]
+            lon: [ 0..359.1667]
+Number Of Attributes: 3
+  units :	s^-2
+  long_name :	Vortex stretching term (eta D)
+  _FillValue :	-1.073742e+09
+
+Variable: f
+Type: float
+Total Size: 508 bytes
+            127 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lat | 127]
+Coordinates: 
+Number Of Attributes: 2
+  units :	s^-1
+  long_name :	Coriolis parameter
+(0)	Coriolis parameter (s^-1) : min=-8.36515e-05   max=8.36515e-05
+
+Variable: fD
+Type: float
+Total Size: 183684672 bytes
+            45921168 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 3] x [lat | 127] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [700..925]
+            lat: [-35..35]
+            lon: [ 0..359.1667]
+Number Of Attributes: 3
+  units :	s^-2
+  long_name :	Planetary vorticity stretching term (f D)
+  _FillValue :	-1.073742e+09
+
+Variable: vr_stretch
+Type: float
+Total Size: 183684672 bytes
+            45921168 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 3] x [lat | 127] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [700..925]
+            lat: [-35..35]
+            lon: [ 0..359.1667]
+Number Of Attributes: 3
+  units :	s^-2
+  long_name :	Vortex stretching term (eta D + f D)
+  _FillValue :	-1.073742e+09
+(0)	Vortex stretching term (eta D + f D) (s^-2) : min=-3.71344e-07   max=1.91326e-07
+(0)	Calculating Vortex Tilting...
+
+Variable: vr_tilt
+Type: float
+Total Size: 183684672 bytes
+            45921168 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 3] x [lat | 127] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [700..925]
+            lat: [-35..35]
+            lon: [ 0..359.1667]
+Number Of Attributes: 3
+  units :	s^-2
+  long_name :	Vortex tilting term (-dwdx dvdp + dwdy dudp)
+  _FillValue :	-1.073742e+09
+(0)	Vortex tilting term (-dwdx dvdp + dwdy dudp) (s^-2) : min=-1.17571e-06   max=9.40354e-07
+(0)	Calculating Planetary Vorticity Advection...
+
+Variable: vr_planetary_adv
+Type: float
+Total Size: 183684672 bytes
+            45921168 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 3] x [lat | 127] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [700..925]
+            lat: [-35..35]
+            lon: [ 0..359.1667]
+Number Of Attributes: 3
+  units :	s^-2
+  long_name :	Planetary vorticity advection term (-Bv)
+  _FillValue :	-1.073742e+09
+(0)	Planetary vorticity advection term (-Bv) (s^-2) : min=-1.1859e-09   max=8.65994e-10
+(0)	Calculating residual...
+
+Variable: residual
+Type: float
+Total Size: 183684672 bytes
+            45921168 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 3] x [lat | 127] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [700..925]
+            lat: [-35..35]
+            lon: [ 0..359.1667]
+Number Of Attributes: 3
+  units :	s^-2
+  long_name :	Vorticity tendency residual (dvr_dt - Adv - Stretch - Tilt - Planetary Adv)
+  _FillValue :	-1.073742e+09
+
+Variable: vr_total_source
+Type: float
+Total Size: 183684672 bytes
+            45921168 values
+Number of Dimensions: 4
+Dimensions and sizes:	[time | 279] x [z1_p_level | 3] x [lat | 127] x [lon | 432]
+Coordinates: 
+            time: [10259..10537]
+            z1_p_level: [700..925]
+            lat: [-35..35]
+            lon: [ 0..359.1667]
+Number Of Attributes: 3
+  units :	s^-2
+  long_name :	Total vorticity source term (-Bv + -fD)
+  _FillValue :	-1.073742e+09
+(0)	Total vorticity source term (-Bv + -fD) (s^-2) : min=-4.2688e-08   max=3.10354e-08
+(0)	Writing output files...

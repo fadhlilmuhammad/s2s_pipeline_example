@@ -1,0 +1,18 @@
+Input file contents:
+NDJFMA wet e01 er 
+NDJFMA wet e02 er 
+NDJFMA wet e03 er 
+NDJFMA wet ensmean er 
+
+======================================================================================
+                  Resource Usage on 2025-10-10 18:12:54:
+   Job Id:             152053635.gadi-pbs
+   Project:            v46
+   Exit Status:        271 (Linux Signal 15 SIGTERM Termination)
+   Service Units:      3.23
+   NCPUs Requested:    20                     NCPUs Used: 20              
+                                           CPU Time Used: 02:01:44        
+   Memory Requested:   200.0GB               Memory Used: 88.5GB          
+   Walltime requested: 10:30:00            Walltime Used: 00:06:58        
+   JobFS requested:    100.0MB                JobFS used: 0B              
+======================================================================================

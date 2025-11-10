@@ -1,0 +1,60 @@
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py NDJFMA wet er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py NDJFMA wet mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py NDJFMA wet kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py NDJFMA dry er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py NDJFMA dry mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py NDJFMA dry kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py MJJASO wet er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py MJJASO wet mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py MJJASO wet kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py MJJASO dry er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py MJJASO dry mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py MJJASO dry kelvin
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py", line 150, in <module>
+    del weights_mod, weights_dia
+NameError: name 'weights_mod' is not defined
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py", line 150, in <module>
+    del weights_mod, weights_dia
+NameError: name 'weights_mod' is not defined
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py", line 150, in <module>
+    del weights_mod, weights_dia
+NameError: name 'weights_mod' is not defined
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py", line 150, in <module>
+    del weights_mod, weights_dia
+NameError: name 'weights_mod' is not defined
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py", line 150, in <module>
+    del weights_mod, weights_dia
+NameError: name 'weights_mod' is not defined
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py", line 150, in <module>
+    del weights_mod, weights_dia
+NameError: name 'weights_mod' is not defined
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py", line 150, in <module>
+    del weights_mod, weights_dia
+NameError: name 'weights_mod' is not defined
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py", line 150, in <module>
+    del weights_mod, weights_dia
+NameError: name 'weights_mod' is not defined
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py", line 150, in <module>
+    del weights_mod, weights_dia
+NameError: name 'weights_mod' is not defined
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py", line 150, in <module>
+    del weights_mod, weights_dia
+NameError: name 'weights_mod' is not defined
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py", line 150, in <module>
+    del weights_mod, weights_dia
+NameError: name 'weights_mod' is not defined
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_randmember_vorticity_budget.py", line 150, in <module>
+    del weights_mod, weights_dia
+NameError: name 'weights_mod' is not defined

@@ -1,0 +1,240 @@
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e01 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e02 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e03 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet ensmean er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e01 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e02 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e03 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet ensmean mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e01 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e02 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e03 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet ensmean kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e01 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e02 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e03 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry ensmean er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e01 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e02 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e03 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry ensmean mjo
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e01 kelvin
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e02 kelvin
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e03 kelvin
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry ensmean kelvin
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e01 er
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e02 er
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e03 er
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet ensmean er
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e01 mjo
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e02 mjo
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e03 mjo
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet ensmean mjo
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e01 kelvin
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e02 kelvin
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e03 kelvin
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet ensmean kelvin
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e01 er
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e02 er
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e03 er
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry ensmean er
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e01 mjo
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e02 mjo
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e03 mjo
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry ensmean mjo
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e01 kelvin
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e02 kelvin
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e03 kelvin
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry ensmean kelvin
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 119, in <module>
+    del ds_mod, ds_dia, ds_mod, ds_dia
+NameError: name 'ds_mod' is not defined. Did you mean: 'divmod'?

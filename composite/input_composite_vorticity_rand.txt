@@ -1,0 +1,12 @@
+NDJFMA wet er 
+NDJFMA wet mjo 
+NDJFMA wet kelvin  
+NDJFMA dry er 
+NDJFMA dry mjo 
+NDJFMA dry kelvin 
+MJJASO wet er 
+MJJASO wet mjo 
+MJJASO wet kelvin 
+MJJASO dry er 
+MJJASO dry mjo 
+MJJASO dry kelvin

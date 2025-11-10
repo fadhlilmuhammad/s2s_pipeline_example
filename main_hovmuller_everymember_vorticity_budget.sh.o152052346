@@ -1,0 +1,18 @@
+Input file contents:
+NDJFMA wet e01 er 
+NDJFMA wet e02 er 
+NDJFMA wet e03 er 
+NDJFMA wet ensmean er 
+
+======================================================================================
+                  Resource Usage on 2025-10-10 17:13:31:
+   Job Id:             152052346.gadi-pbs
+   Project:            v46
+   Exit Status:        48
+   Service Units:      0.56
+   NCPUs Requested:    20                     NCPUs Used: 20              
+                                           CPU Time Used: 00:04:35        
+   Memory Requested:   200.0GB               Memory Used: 3.29GB          
+   Walltime requested: 10:30:00            Walltime Used: 00:01:13        
+   JobFS requested:    100.0MB                JobFS used: 0B              
+======================================================================================

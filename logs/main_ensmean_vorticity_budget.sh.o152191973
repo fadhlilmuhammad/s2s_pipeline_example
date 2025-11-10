@@ -1,0 +1,16 @@
+152191999.gadi-pbs
+152192000.gadi-pbs
+152192001.gadi-pbs
+
+======================================================================================
+                  Resource Usage on 2025-10-13 11:34:13:
+   Job Id:             152191973.gadi-pbs
+   Project:            v46
+   Exit Status:        0
+   Service Units:      0.79
+   NCPUs Requested:    12                     NCPUs Used: 12              
+                                           CPU Time Used: 00:00:03        
+   Memory Requested:   100.0GB               Memory Used: 88.53MB         
+   Walltime requested: 01:40:00            Walltime Used: 00:00:19        
+   JobFS requested:    100.0MB                JobFS used: 0B              
+======================================================================================

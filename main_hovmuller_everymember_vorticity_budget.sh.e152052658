@@ -1,0 +1,1632 @@
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e01 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e02 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e03 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet ensmean er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e01 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e02 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e03 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet ensmean mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e01 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e02 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet e03 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA wet ensmean kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e01 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e02 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e03 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry ensmean er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e01 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e02 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e03 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry ensmean mjo
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_20170401_e01_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'be834869-74db-4937-826a-d7e9351aaf61']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_20170401_e01_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e01 kelvin
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19880401_e03_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '875588b9-3fb5-448c-9774-fa9c045b79e0']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19880401_e03_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_19951101_ensmean_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'd1e43318-a307-4cb8-a3e5-a6a8592a26bc']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_19951101_ensmean_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e02 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry e03 kelvin
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_19931201_e02_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '5de62181-9a0b-4ca2-abda-174d6f8a9c9c']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_19931201_e02_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py NDJFMA dry ensmean kelvin
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19950401_e02_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '5a182dcd-81b7-4357-9670-2778e9c64f60']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19950401_e02_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_20180401_ensmean_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '62086571-608a-4d10-9e36-b433116b5cc0']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_20180401_ensmean_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_20060401_e03_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '06e4a364-e9d7-445e-9f9a-28497899172f']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_20060401_e03_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e01 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e02 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e03 er
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19840101_e03_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '873c0886-533e-47f4-95fb-cdc6f68f7354']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19840101_e03_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet ensmean er
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19850201_e03_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '1d2aea36-7857-46f6-ac82-2160546d177b']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19850201_e03_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e01 mjo
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_20171201_e01_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'ee74db91-15c7-41ac-befa-222c60b3d1b8']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_20171201_e01_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e02 mjo
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_19821201_e03_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '50ad460e-bda6-4e7a-a115-3db3aef84387']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_19821201_e03_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e03 mjo
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_20121101_ensmean_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'ac3ddb4e-3e53-478b-ac54-0883aa6642bc']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_20121101_ensmean_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet ensmean mjo
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_20000401_e01_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '4b773460-0d68-45d4-b4eb-d7abfc005f81']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_20000401_e01_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e01 kelvin
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19861101_e02_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'a5961357-dfca-4f52-922f-2444c87c3729']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19861101_e02_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e02 kelvin
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_19960301_e02_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '39e4fac9-82be-467e-b58d-01afee816803']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_19960301_e02_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet e03 kelvin
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19880401_e02_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '40582ee9-fff2-46f3-8d87-b0386b18883b']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19880401_e02_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO wet ensmean kelvin
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_20091101_ensmean_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'c3899e48-7c96-4cf3-a406-cdeef0915dec']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_20091101_ensmean_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e01 er
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19871101_ensmean_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '258ccb6d-d42a-4d2b-b986-87d25dd3e7fa']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19871101_ensmean_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e02 er
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19890601_e02_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '1b31103f-4073-472a-8536-67b86b655915']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19890601_e02_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e03 er
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_20120601_e01_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'b4ce8d58-3594-41a9-a451-fa31f1939ae1']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_20120601_e01_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry ensmean er
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_20071001_ensmean_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '745a753d-dcc0-413c-afa3-d2b7220c1c80']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_20071001_ensmean_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e01 mjo
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_19910901_ensmean_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '70b57a0e-33d3-40ec-aeb6-2599b91425b9']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_19910901_ensmean_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e02 mjo
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_20151201_e01_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'd6c32b69-9895-4981-a8a4-b2e1d1d3e59e']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_20151201_e01_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e03 mjo
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_20180801_e02_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '03b498cf-71c8-4648-98cd-c35f3f5c607f']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_20180801_e02_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry ensmean mjo
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_20010801_e01_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '28dc834d-0a84-486d-b617-8114b32e6894']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_20010801_e01_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e01 kelvin
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19900701_e02_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '78250e0a-abc2-4052-8f9c-a5f989d617e6']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19900701_e02_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e02 kelvin
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19940801_e03_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'f7ee8d9d-e677-4627-aee0-d33ee0b08152']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19940801_e03_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry e03 kelvin
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19870701_e03_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'a571a954-da1a-4266-b7a0-df1279972530']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19870701_e03_remap_padded.nc'
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py MJJASO dry ensmean kelvin
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_20130701_ensmean_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'efe08ccd-422b-4ad1-94d2-2235e3290900']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_20130701_ensmean_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_20090801_e01_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '7408383d-9ff8-436b-ac92-e1a4f64286c6']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_20090801_e01_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_19871001_e02_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'db0b2531-4d5a-4d15-92d6-91e372a7ae49']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_19871001_e02_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_19970801_ensmean_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '0e067033-1b1d-4f47-8845-2633abc15917']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_19970801_ensmean_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_20001001_e01_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'f22729b7-4650-4640-a9bc-02588b2f5c45']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_20001001_e01_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19840501_e02_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '6ba85b4d-6243-42f1-b127-120c4594054e']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19840501_e02_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19910901_ensmean_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '82e0a7a8-1f54-4314-b3b9-2affe24cee28']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19910901_ensmean_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19971001_e03_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '4f31a4ad-2447-48bc-8e0a-c1f05d69c6cc']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19971001_e03_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_20150501_e03_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '22d12739-4e66-45c9-83b9-82f527d5fdd5']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_20150501_e03_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19890501_e01_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'c2ca545d-fa38-404d-92d8-eccb85ff725f']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19890501_e01_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_20160601_e03_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'eece592a-c14b-438d-b4b0-b13420e2ee39']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_20160601_e03_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_20101001_e01_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'aa7a5321-cb67-4909-b75c-19d55342b99b']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_20101001_e01_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_20030501_e02_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '0a8b96c6-cbd1-4cb2-80a4-7bb492f91c6a']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_20030501_e02_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19870601_ensmean_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '51130ee0-77e3-4297-8632-6675813d9967']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19870601_ensmean_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19940201_e03_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'b378a91e-a0a5-4f49-a92b-24a5c49a8324']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19940201_e03_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19850201_e02_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '447fa7c4-954f-451c-a75a-c6f0905c6d50']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_19850201_e02_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_20100601_e03_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '4e4b343d-55d3-4de8-808b-a2173763f461']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_20100601_e03_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_19990101_ensmean_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '2b275ec8-852e-4ebe-8796-6ccf5e29cd0b']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/mjo/tlag_da_vrD_19990101_ensmean_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19841101_e01_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), '0f1539c1-c5b8-4dc4-aebf-4549dfe1bc75']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/er/tlag_da_vrD_19841101_e01_remap_padded.nc'
+Traceback (most recent call last):
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 211, in _acquire_with_cache_info
+    file = self._cache[self._key]
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/lru_cache.py", line 56, in __getitem__
+    value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_20061101_e01_remap_padded.nc',), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False)), 'e05d7fb6-fc10-4f83-ac76-b8b60752aef5']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/g/data/v46/fm6730/script_access_s2/vorticity/composite/hovmuller_everymember_vorticity_budget.py", line 77, in <module>
+    ds_mod = xr.open_dataset(os.path.join(folder_mod, file_mod))
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/api.py", line 571, in open_dataset
+    backend_ds = backend.open_dataset(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 645, in open_dataset
+    store = NetCDF4DataStore.open(
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 408, in open
+    return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 355, in __init__
+    self.format = self.ds.data_model
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 417, in ds
+    return self._acquire()
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/netCDF4_.py", line 411, in _acquire
+    with self._manager.acquire_context(needs_lock) as root:
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 199, in acquire_context
+    file, cached = self._acquire_with_cache_info(needs_lock)
+  File "/g/data/hh5/public/apps/miniconda3/envs/analysis3-24.04/lib/python3.10/site-packages/xarray/backends/file_manager.py", line 217, in _acquire_with_cache_info
+    file = self._opener(*self._args, **kwargs)
+  File "src/netCDF4/_netCDF4.pyx", line 2469, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2028, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch/v46/fm6730/data/access_s2/integrated/vorticity_budget/kelvin/tlag_da_vrD_20061101_e01_remap_padded.nc'

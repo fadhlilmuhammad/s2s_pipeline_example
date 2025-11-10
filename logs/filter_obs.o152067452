@@ -1,0 +1,76 @@
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	Reading the input file...
+
+
+Variable: fname
+Type: string
+Total Size: 8 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+(0)	vorticity_budget.era.daymean.1979-2020.nc
+(0)	Opening the output file...
+fatal:["Execute.c":133]:variable (vr) is not in file (/scratch/v46/fm6730/data/obs/integrated/vorticity_budget/merged/vorticity_budget.era.daymean.1979-2020.nc)
+fatal:["Execute.c":6378]:variable (vr) is not in file (f)
+fatal:["Execute.c":8637]:Execute: Error occurred at or near line 58 in file /g/data/v46/fm6730/script_access_s2/vorticity/filter_vorticity_budget/ncl_vorticity_budget_wave_filter_diag.ncl
+
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	Reading the input file...
+
+
+Variable: fname
+Type: string
+Total Size: 8 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+(0)	vorticity_budget.era.daymean.1979-2020.nc
+(0)	Opening the output file...
+fatal:["Execute.c":133]:variable (vr) is not in file (/scratch/v46/fm6730/data/obs/integrated/vorticity_budget/merged/vorticity_budget.era.daymean.1979-2020.nc)
+fatal:["Execute.c":6378]:variable (vr) is not in file (f)
+fatal:["Execute.c":8637]:Execute: Error occurred at or near line 58 in file /g/data/v46/fm6730/script_access_s2/vorticity/filter_vorticity_budget/ncl_vorticity_budget_wave_filter_diag.ncl
+
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	Reading the input file...
+
+
+Variable: fname
+Type: string
+Total Size: 8 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+(0)	vorticity_budget.era.daymean.1979-2020.nc
+(0)	Opening the output file...
+fatal:["Execute.c":133]:variable (vr) is not in file (/scratch/v46/fm6730/data/obs/integrated/vorticity_budget/merged/vorticity_budget.era.daymean.1979-2020.nc)
+fatal:["Execute.c":6378]:variable (vr) is not in file (f)
+fatal:["Execute.c":8637]:Execute: Error occurred at or near line 58 in file /g/data/v46/fm6730/script_access_s2/vorticity/filter_vorticity_budget/ncl_vorticity_budget_wave_filter_diag.ncl
+
+
+======================================================================================
+                  Resource Usage on 2025-10-11 03:22:54:
+   Job Id:             152067452.gadi-pbs
+   Project:            v46
+   Exit Status:        0
+   Service Units:      0.96
+   NCPUs Requested:    12                     NCPUs Used: 12              
+                                           CPU Time Used: 00:00:04        
+   Memory Requested:   100.0GB               Memory Used: 489.04MB        
+   Walltime requested: 01:40:00            Walltime Used: 00:00:23        
+   JobFS requested:    100.0MB                JobFS used: 0B              
+======================================================================================

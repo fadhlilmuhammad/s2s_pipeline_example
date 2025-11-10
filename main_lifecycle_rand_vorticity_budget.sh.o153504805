@@ -1,0 +1,887 @@
+Input file contents:
+NDJFMA wet er 
+NDJFMA wet mjo 
+NDJFMA wet kelvin  
+NDJFMA dry er 
+['19900101', '20110301', '19940201', '20171201', '20140101', '19910201', '20020201', '20070301', '20070101', '19820101', '20181201', '20090301', '19960101', '20080401', '19971101', '20170301', '19920401', '19821201', '20161101', '20090401', '19820301', '19980401', '19821101', '19930401', '20000301', '20141101', '20130201', '20021201', '20180301', '19850201', '20010201', '19920301', '20081201', '20160401', '19920101', '19900401', '20060301', '19871101', '20151201', '20170201', '20011101', '19861101', '19860101', '20011201', '20020101', '20071101', '19831101', '20010301', '19870101']
+Processing member randomly chosen: e03 at time lag 0
+Processing kelvin wave for 19900101 initialization
+Opening kelvin_tlag_da_vorticity_budget_19900101_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 19900101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 2
+Processing kelvin wave for 20110301 initialization
+Opening kelvin_tlag_da_vorticity_budget_20110301_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20110301 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 0
+Processing kelvin wave for 19940201 initialization
+Opening kelvin_tlag_da_vorticity_budget_19940201_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 19940201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 2
+Processing kelvin wave for 20171201 initialization
+Opening kelvin_tlag_da_vorticity_budget_20171201_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20171201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 1
+Processing kelvin wave for 20140101 initialization
+Opening kelvin_tlag_da_vorticity_budget_20140101_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20140101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 1
+Processing kelvin wave for 19910201 initialization
+Opening kelvin_tlag_da_vorticity_budget_19910201_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 19910201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 2
+Processing kelvin wave for 20020201 initialization
+Opening kelvin_tlag_da_vorticity_budget_20020201_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20020201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 1
+Processing kelvin wave for 20070301 initialization
+Opening kelvin_tlag_da_vorticity_budget_20070301_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+['20020901', '19930701', '20150701', '19980501', '20130801', '20040701', '20140601', '20170601', '19850901', '20040501', '20151001', '20000901', '20030601', '20041001', '19850501', '20070601', '20120901', '20000801', '20070701', '20081001', '19921001', '19830601', '20170901', '20061001', '20171001', '20040601', '19990501', '19970901', '20010501', '20160701', '20141001', '19840701', '20020501', '20060901', '19820801', '20001001', '19980801', '20090901', '20180901', '20080701', '19910901', '19930901', '19971001', '19890701', '20160901', '20140801', '20150601', '19950601', '20091001', '20100601', '20170801', '19830701', '19820501', '19840501', '19950801', '19951001', '20010701', '20111001', '20130501', '20140701', '20170701', '19810501', '19950901', '19900601']
+Processing member randomly chosen: e01 at time lag 1
+Processing kelvin wave for 20020901 initialization
+Opening kelvin_tlag_da_vorticity_budget_20020901_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20020901 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 2
+Processing kelvin wave for 19930701 initialization
+Opening kelvin_tlag_da_vorticity_budget_19930701_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 19930701 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 0
+Processing kelvin wave for 20150701 initialization
+Opening kelvin_tlag_da_vorticity_budget_20150701_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20150701 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 1
+Processing kelvin wave for 19980501 initialization
+Opening kelvin_tlag_da_vorticity_budget_19980501_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 19980501 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 1
+Processing kelvin wave for 20130801 initialization
+Opening kelvin_tlag_da_vorticity_budget_20130801_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20130801 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 2
+Processing kelvin wave for 20040701 initialization
+Opening kelvin_tlag_da_vorticity_budget_20040701_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20040701 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 2
+Processing kelvin wave for 20140601 initialization
+Opening kelvin_tlag_da_vorticity_budget_20140601_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20140601 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 2
+Processing kelvin wave for 20170601 initialization
+Opening kelvin_tlag_da_vorticity_budget_20170601_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20170601 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 1
+Processing kelvin wave for 19850901 initialization
+Opening kelvin_tlag_da_vorticity_budget_19850901_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 19850901 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 1
+Processing kelvin wave for 20040501 initialization
+Opening kelvin_tlag_da_vorticity_budget_20040501_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20040501 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 0
+Processing kelvin wave for 20151001 initialization
+Opening kelvin_tlag_da_vorticity_budget_20151001_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20151001 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 1
+Processing kelvin wave for 20000901 initialization
+Opening kelvin_tlag_da_vorticity_budget_20000901_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20000901 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 1
+Processing kelvin wave for 20030601 initialization
+Opening kelvin_tlag_da_vorticity_budget_20030601_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20030601 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 0
+Processing kelvin wave for 20041001 initialization
+Opening kelvin_tlag_da_vorticity_budget_20041001_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20041001 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 0
+Processing kelvin wave for 19850501 initialization
+Opening kelvin_tlag_da_vorticity_budget_19850501_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 19850501 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 1
+Processing kelvin wave for 20070601 initialization
+Opening kelvin_tlag_da_vorticity_budget_20070601_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20070601 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 0
+Processing kelvin wave for 20120901 initialization
+Opening kelvin_tlag_da_vorticity_budget_20120901_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20120901 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 2
+Processing kelvin wave for 20000801 initialization
+Opening kelvin_tlag_da_vorticity_budget_20000801_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20000801 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 0
+Processing kelvin wave for 20070701 initialization
+Opening kelvin_tlag_da_vorticity_budget_20070701_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing kelvin wave for 20070701 initialization
+['20030801', '20160601', '20180901', '20180501', '20110801', '19941001', '19820501', '19960801', '20100501', '19811001', '20111001', '19900701', '19820701', '20070601', '20160701', '20100801', '19830701', '20121001', '19980801', '19901001', '20050701', '20080801', '19871001', '20010701', '19850701', '19830501', '20170601', '20000501', '19821001', '19930801', '20170501', '19910501', '20030601', '20050801', '19970801', '19870801', '19920701', '20090801', '19911001', '19970601', '20131001', '20060501', '20120801', '20150701', '19880601', '19990901', '19850501', '20000901', '20150501', '20040801', '19860601', '19831001', '20081001', '19890901', '20070801', '19830601']
+Processing member randomly chosen: e01 at time lag 2
+Processing mjo wave for 20030801 initialization
+Opening mjo_tlag_da_vorticity_budget_20030801_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20030801 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 0
+Processing mjo wave for 20160601 initialization
+Opening mjo_tlag_da_vorticity_budget_20160601_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20160601 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 1
+Processing mjo wave for 20180901 initialization
+Opening mjo_tlag_da_vorticity_budget_20180901_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20180901 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 0
+Processing mjo wave for 20180501 initialization
+Opening mjo_tlag_da_vorticity_budget_20180501_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20180501 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 2
+Processing mjo wave for 20110801 initialization
+Opening mjo_tlag_da_vorticity_budget_20110801_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20110801 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 0
+Processing mjo wave for 19941001 initialization
+Opening mjo_tlag_da_vorticity_budget_19941001_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19941001 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 1
+Processing mjo wave for 19820501 initialization
+Opening mjo_tlag_da_vorticity_budget_19820501_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19820501 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 1
+Processing mjo wave for 19960801 initialization
+Opening mjo_tlag_da_vorticity_budget_19960801_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19960801 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 2
+Processing mjo wave for 20100501 initialization
+Opening mjo_tlag_da_vorticity_budget_20100501_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20100501 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 2
+Processing mjo wave for 19811001 initialization
+Opening mjo_tlag_da_vorticity_budget_19811001_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19811001 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 2
+Processing mjo wave for 20111001 initialization
+Opening mjo_tlag_da_vorticity_budget_20111001_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20111001 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 1
+Processing mjo wave for 19900701 initialization
+Opening mjo_tlag_da_vorticity_budget_19900701_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19900701 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 0
+Processing mjo wave for 19820701 initialization
+Opening mjo_tlag_da_vorticity_budget_19820701_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19820701 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 1
+Processing mjo wave for 20070601 initialization
+Opening mjo_tlag_da_vorticity_budget_20070601_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20070601 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 1
+Processing mjo wave for 20160701 initialization
+Opening mjo_tlag_da_vorticity_budget_20160701_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20160701 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 1
+Processing mjo wave for 20100801 initialization
+Opening mjo_tlag_da_vorticity_budget_20100801_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20100801 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 0
+Processing mjo wave for 19830701 initialization
+Opening mjo_tlag_da_vorticity_budget_19830701_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19830701 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 1
+Processing mjo wave for 20121001 initialization
+Opening mjo_tlag_da_vorticity_budget_20121001_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20121001 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 0
+Processing mjo wave for 19980801 initialization
+Opening mjo_tlag_da_vorticity_budget_19980801_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19980801 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 0
+Processing mjo wave for 19901001 initialization
+Opening mjo_tlag_da_vorticity_budget_19901001_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+['20090101', '20061101', '19930201', '19820401', '19941101', '19890201', '20030401', '20080101', '19860401', '20080301', '20030101', '20120101', '19841101', '20100201', '19990101', '19991101', '20060401', '19840101', '20131101', '20020301', '19920101', '20021201', '20060101', '19850101', '20080401', '20000301', '19990201', '20081101', '20100301', '20180201', '20150101', '20180401', '19900201', '19940401', '20020101', '19990401', '19870201', '20130301', '19910301', '20001101', '20001201', '19880401', '20041201', '19930101', '20161101', '20070201', '19830401', '20141101', '20030301', '20170401', '20170201', '19960301', '19870301', '19950301', '19890101', '19970301', '20110301', '19910201', '19861201', '20120201', '19980101', '19831201', '19921101', '20011201', '20081201', '19940101', '20060201', '20110401', '20070401']
+Processing member randomly chosen: e01 at time lag 0
+Processing mjo wave for 20090101 initialization
+Opening mjo_tlag_da_vorticity_budget_20090101_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20090101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 2
+Processing mjo wave for 20061101 initialization
+Opening mjo_tlag_da_vorticity_budget_20061101_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20061101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 0
+Processing mjo wave for 19930201 initialization
+Opening mjo_tlag_da_vorticity_budget_19930201_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19930201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 0
+Processing mjo wave for 19820401 initialization
+Opening mjo_tlag_da_vorticity_budget_19820401_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19820401 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 2
+Processing mjo wave for 19941101 initialization
+Opening mjo_tlag_da_vorticity_budget_19941101_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19941101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 1
+Processing mjo wave for 19890201 initialization
+Opening mjo_tlag_da_vorticity_budget_19890201_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19890201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 1
+Processing mjo wave for 20030401 initialization
+Opening mjo_tlag_da_vorticity_budget_20030401_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20030401 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 1
+Processing mjo wave for 20080101 initialization
+Opening mjo_tlag_da_vorticity_budget_20080101_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20080101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 2
+Processing mjo wave for 19860401 initialization
+Opening mjo_tlag_da_vorticity_budget_19860401_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19860401 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 0
+Processing mjo wave for 20080301 initialization
+Opening mjo_tlag_da_vorticity_budget_20080301_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20080301 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 2
+Processing mjo wave for 20030101 initialization
+Opening mjo_tlag_da_vorticity_budget_20030101_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20030101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 0
+Processing mjo wave for 20120101 initialization
+Opening mjo_tlag_da_vorticity_budget_20120101_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20120101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 2
+Processing mjo wave for 19841101 initialization
+Opening mjo_tlag_da_vorticity_budget_19841101_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19841101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 1
+Processing mjo wave for 20100201 initialization
+Opening mjo_tlag_da_vorticity_budget_20100201_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20100201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 1
+Processing mjo wave for 19990101 initialization
+Opening mjo_tlag_da_vorticity_budget_19990101_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19990101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 1
+Processing mjo wave for 19991101 initialization
+Opening mjo_tlag_da_vorticity_budget_19991101_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19991101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 0
+Processing mjo wave for 20060401 initialization
+Opening mjo_tlag_da_vorticity_budget_20060401_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20060401 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 0
+Processing mjo wave for 19840101 initialization
+Opening mjo_tlag_da_vorticity_budget_19840101_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19840101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 2
+Processing mjo wave for 20131101 initialization
+Opening mjo_tlag_da_vorticity_budget_20131101_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20131101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 1
+Processing mjo wave for 20020301 initialization
+Opening mjo_tlag_da_vorticity_budget_20020301_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20020301 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 1
+Processing mjo wave for 19920101 initialization
+Opening mjo_tlag_da_vorticity_budget_19920101_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19920101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 2
+Processing mjo wave for 20021201 initialization
+Opening mjo_tlag_da_vorticity_budget_20021201_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20021201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 0
+Processing mjo wave for 20060101 initialization
+Opening mjo_tlag_da_vorticity_budget_20060101_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20060101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 2
+Processing mjo wave for 19850101 initialization
+Opening mjo_tlag_da_vorticity_budget_19850101_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19850101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 2
+Processing mjo wave for 20080401 initialization
+Opening mjo_tlag_da_vorticity_budget_20080401_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20080401 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 2
+Processing mjo wave for 20000301 initialization
+Opening mjo_tlag_da_vorticity_budget_20000301_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20000301 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 0
+Processing mjo wave for 19990201 initialization
+Opening mjo_tlag_da_vorticity_budget_19990201_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19990201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 0
+Processing mjo wave for 20081101 initialization
+Opening mjo_tlag_da_vorticity_budget_20081101_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20081101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 2
+Processing mjo wave for 20100301 initialization
+Opening mjo_tlag_da_vorticity_budget_20100301_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20100301 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 2
+Processing mjo wave for 20180201 initialization
+Opening mjo_tlag_da_vorticity_budget_20180201_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20180201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 1
+Processing mjo wave for 20150101 initialization
+Opening mjo_tlag_da_vorticity_budget_20150101_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20150101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 2
+Processing mjo wave for 20180401 initialization
+Opening mjo_tlag_da_vorticity_budget_20180401_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20180401 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 1
+Processing mjo wave for 19900201 initialization
+Opening mjo_tlag_da_vorticity_budget_19900201_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19900201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 2
+Processing mjo wave for 19940401 initialization
+Opening mjo_tlag_da_vorticity_budget_19940401_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19940401 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 2
+Processing mjo wave for 20020101 initialization
+Opening mjo_tlag_da_vorticity_budget_20020101_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20020101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 2
+Processing mjo wave for 19990401 initialization
+Opening mjo_tlag_da_vorticity_budget_19990401_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19990401 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 2
+Processing mjo wave for 19870201 initialization
+Opening mjo_tlag_da_vorticity_budget_19870201_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19870201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 1
+Processing mjo wave for 20130301 initialization
+Opening mjo_tlag_da_vorticity_budget_20130301_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20130301 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 0
+Processing mjo wave for 19910301 initialization
+Opening mjo_tlag_da_vorticity_budget_19910301_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19910301 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 2
+Processing mjo wave for 20001101 initialization
+Opening mjo_tlag_da_vorticity_budget_20001101_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20001101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 2
+Processing mjo wave for 20001201 initialization
+Opening mjo_tlag_da_vorticity_budget_20001201_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20001201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 0
+Processing mjo wave for 19880401 initialization
+Opening mjo_tlag_da_vorticity_budget_19880401_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19880401 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 2
+Processing mjo wave for 20041201 initialization
+Opening mjo_tlag_da_vorticity_budget_20041201_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20041201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 1
+Processing mjo wave for 19930101 initialization
+Opening mjo_tlag_da_vorticity_budget_19930101_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19930101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 2
+Processing mjo wave for 20161101 initialization
+Opening mjo_tlag_da_vorticity_budget_20161101_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20161101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 2
+Processing mjo wave for 20070201 initialization
+Opening mjo_tlag_da_vorticity_budget_20070201_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20070201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 2
+Processing mjo wave for 19830401 initialization
+Opening mjo_tlag_da_vorticity_budget_19830401_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19830401 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 2
+Processing mjo wave for 20141101 initialization
+Opening mjo_tlag_da_vorticity_budget_20141101_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20141101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 2
+Processing mjo wave for 20030301 initialization
+Opening mjo_tlag_da_vorticity_budget_20030301_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20030301 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 2
+Processing mjo wave for 20170401 initialization
+Opening mjo_tlag_da_vorticity_budget_20170401_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20170401 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 1
+Processing mjo wave for 20170201 initialization
+Opening mjo_tlag_da_vorticity_budget_20170201_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20170201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 2
+Processing mjo wave for 19960301 initialization
+Opening mjo_tlag_da_vorticity_budget_19960301_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19960301 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 2
+Processing mjo wave for 19870301 initialization
+Opening mjo_tlag_da_vorticity_budget_19870301_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19870301 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 2
+Processing mjo wave for 19950301 initialization
+Opening mjo_tlag_da_vorticity_budget_19950301_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19950301 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e01 at time lag 1
+Processing mjo wave for 19890101 initialization
+Opening mjo_tlag_da_vorticity_budget_19890101_e01_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19890101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 1
+Processing mjo wave for 19970301 initialization
+Opening mjo_tlag_da_vorticity_budget_19970301_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19970301 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 1
+Processing mjo wave for 20110301 initialization
+Opening mjo_tlag_da_vorticity_budget_20110301_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20110301 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 1
+Processing mjo wave for 19910201 initialization
+Opening mjo_tlag_da_vorticity_budget_19910201_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19910201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 2
+Processing mjo wave for 19861201 initialization
+Opening mjo_tlag_da_vorticity_budget_19861201_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19861201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e02 at time lag 0
+Processing mjo wave for 20120201 initialization
+Opening mjo_tlag_da_vorticity_budget_20120201_e02_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 20120201 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 2
+Processing mjo wave for 19980101 initialization
+Opening mjo_tlag_da_vorticity_budget_19980101_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19980101 initialization
+Clearing variables to free memory and avoid potential issues...
+Processing member randomly chosen: e03 at time lag 2
+Processing mjo wave for 19831201 initialization
+Opening mjo_tlag_da_vorticity_budget_19831201_e03_remap_padded.nc
+Flipping sign for Southern Hemisphere...
+Length of ds_mod_sel: 381
+Length of mod_weighted: 60
+Finished processing mjo wave for 19831201 initialization
+Clearing variables to free memory and avoid potential issues...
+
+======================================================================================
+                  Resource Usage on 2025-10-28 03:18:12:
+   Job Id:             153504805.gadi-pbs
+   Project:            v46
+   Exit Status:        12
+   Service Units:      25.91
+   NCPUs Requested:    20                     NCPUs Used: 20              
+                                           CPU Time Used: 03:55:34        
+   Memory Requested:   200.0GB               Memory Used: 188.44GB        
+   Walltime requested: 10:30:00            Walltime Used: 00:55:58        
+   JobFS requested:    100.0MB                JobFS used: 0B              
+======================================================================================

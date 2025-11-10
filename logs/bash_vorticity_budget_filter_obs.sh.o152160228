@@ -1,0 +1,2011 @@
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	Reading the input file...
+
+
+Variable: fname
+Type: string
+Total Size: 8 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+(0)	vorticity_budget.era.daymean.1979-2020.nc
+(0)	Opening the output file...
+(0)	dble2flt: input variable is already type float: Vorticity
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-1
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Equatorial Rossby Waves in vr
+  units :	s^-1
+  _FillValue :	-999
+(0)	Equatorial Rossby Waves in vr (s^-1) : min=-2.14947e-05   max=2.23825e-05
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	dble2flt: input variable is already type float: Divergence
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-1
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Equatorial Rossby Waves in div
+  units :	s^-1
+  _FillValue :	-999
+(0)	Equatorial Rossby Waves in div (s^-1) : min=-6.53177e-06   max=5.78819e-06
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	dble2flt: input variable is already type float: Vortex stretching term (eta D)
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Equatorial Rossby Waves in vrD
+  units :	s^-2
+  _FillValue :	-999
+(0)	Equatorial Rossby Waves in vrD (s^-2) : min=-3.33146e-10   max=2.81952e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Equatorial Rossby Waves in fD
+  units :	s^-2
+  _FillValue :	-999
+(0)	Equatorial Rossby Waves in fD (s^-2) : min=-3.02323e-10   max=2.72934e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Equatorial Rossby Waves in residual
+  units :	s^-2
+  _FillValue :	-999
+(0)	Equatorial Rossby Waves in residual (s^-2) : min=-3.11994e-10   max=3.04521e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	dble2flt: input variable is already type float: Vertical advection of relative vorticity
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Equatorial Rossby Waves in adv_vr_vertical
+  units :	s^-2
+  _FillValue :	-999
+(0)	Equatorial Rossby Waves in adv_vr_vertical (s^-2) : min=-1.88237e-10   max=2.02377e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Equatorial Rossby Waves in adv_vr_zonal
+  units :	s^-2
+  _FillValue :	-999
+(0)	Equatorial Rossby Waves in adv_vr_zonal (s^-2) : min=-5.00995e-10   max=3.55193e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Equatorial Rossby Waves in adv_vr_meridional
+  units :	s^-2
+  _FillValue :	-999
+(0)	Equatorial Rossby Waves in adv_vr_meridional (s^-2) : min=-5.21928e-10   max=5.17003e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Equatorial Rossby Waves in vr_total_source
+  units :	s^-2
+  _FillValue :	-999
+(0)	Equatorial Rossby Waves in vr_total_source (s^-2) : min=-2.95926e-10   max=2.81731e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Equatorial Rossby Waves in vr_planetary_adv
+  units :	s^-2
+  _FillValue :	-999
+(0)	Equatorial Rossby Waves in vr_planetary_adv (s^-2) : min=-1.21674e-10   max=1.23911e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Equatorial Rossby Waves in vr_tilt
+  units :	s^-2
+  _FillValue :	-999
+(0)	Equatorial Rossby Waves in vr_tilt (s^-2) : min=-2.10397e-10   max=2.19127e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Equatorial Rossby Waves in vr_stretch
+  units :	s^-2
+  _FillValue :	-999
+(0)	Equatorial Rossby Waves in vr_stretch (s^-2) : min=-5.39976e-10   max=4.95669e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Equatorial Rossby Waves in adv_vr
+  units :	s^-2
+  _FillValue :	-999
+(0)	Equatorial Rossby Waves in adv_vr (s^-2) : min=-5.20042e-10   max=3.51386e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	dble2flt: input variable is already type float: Local time derivative of horizontal wind
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Equatorial Rossby Waves in dvr_dt
+  units :	s^-2
+  _FillValue :	-999
+(0)	Equatorial Rossby Waves in dvr_dt (s^-2) : min=-9.66109e-11   max=9.16753e-11
+(0)	Writing the output file...
+(0)	Closing the output file...
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	Reading the input file...
+
+
+Variable: fname
+Type: string
+Total Size: 8 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+(0)	vorticity_budget.era.daymean.1979-2020.nc
+(0)	Opening the output file...
+(0)	dble2flt: input variable is already type float: Vorticity
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-1
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Madden-Julian Oscillations in vr
+  units :	s^-1
+  _FillValue :	-999
+(0)	Madden-Julian Oscillations in vr (s^-1) : min=-1.99538e-05   max=2.08569e-05
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	dble2flt: input variable is already type float: Divergence
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-1
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Madden-Julian Oscillations in div
+  units :	s^-1
+  _FillValue :	-999
+(0)	Madden-Julian Oscillations in div (s^-1) : min=-3.70818e-06   max=3.3129e-06
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	dble2flt: input variable is already type float: Vortex stretching term (eta D)
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Madden-Julian Oscillations in vrD
+  units :	s^-2
+  _FillValue :	-999
+(0)	Madden-Julian Oscillations in vrD (s^-2) : min=-1.27636e-10   max=1.61943e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Madden-Julian Oscillations in fD
+  units :	s^-2
+  _FillValue :	-999
+(0)	Madden-Julian Oscillations in fD (s^-2) : min=-2.19349e-10   max=2.10789e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Madden-Julian Oscillations in residual
+  units :	s^-2
+  _FillValue :	-999
+(0)	Madden-Julian Oscillations in residual (s^-2) : min=-1.6808e-10   max=1.8084e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	dble2flt: input variable is already type float: Vertical advection of relative vorticity
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Madden-Julian Oscillations in adv_vr_vertical
+  units :	s^-2
+  _FillValue :	-999
+(0)	Madden-Julian Oscillations in adv_vr_vertical (s^-2) : min=-1.26685e-10   max=1.17938e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Madden-Julian Oscillations in adv_vr_zonal
+  units :	s^-2
+  _FillValue :	-999
+(0)	Madden-Julian Oscillations in adv_vr_zonal (s^-2) : min=-2.07464e-10   max=2.03931e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Madden-Julian Oscillations in adv_vr_meridional
+  units :	s^-2
+  _FillValue :	-999
+(0)	Madden-Julian Oscillations in adv_vr_meridional (s^-2) : min=-2.82149e-10   max=3.1103e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Madden-Julian Oscillations in vr_total_source
+  units :	s^-2
+  _FillValue :	-999
+(0)	Madden-Julian Oscillations in vr_total_source (s^-2) : min=-1.80605e-10   max=2.11215e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Madden-Julian Oscillations in vr_planetary_adv
+  units :	s^-2
+  _FillValue :	-999
+(0)	Madden-Julian Oscillations in vr_planetary_adv (s^-2) : min=-9.738e-11   max=1.05144e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Madden-Julian Oscillations in vr_tilt
+  units :	s^-2
+  _FillValue :	-999
+(0)	Madden-Julian Oscillations in vr_tilt (s^-2) : min=-1.55807e-10   max=1.74281e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Madden-Julian Oscillations in vr_stretch
+  units :	s^-2
+  _FillValue :	-999
+(0)	Madden-Julian Oscillations in vr_stretch (s^-2) : min=-2.4353e-10   max=2.40269e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Madden-Julian Oscillations in adv_vr
+  units :	s^-2
+  _FillValue :	-999
+(0)	Madden-Julian Oscillations in adv_vr (s^-2) : min=-2.50211e-10   max=1.80243e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	dble2flt: input variable is already type float: Local time derivative of horizontal wind
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Madden-Julian Oscillations in dvr_dt
+  units :	s^-2
+  _FillValue :	-999
+(0)	Madden-Julian Oscillations in dvr_dt (s^-2) : min=-4.53473e-11   max=3.57559e-11
+(0)	Writing the output file...
+(0)	Closing the output file...
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	Reading the input file...
+
+
+Variable: fname
+Type: string
+Total Size: 8 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+(0)	vorticity_budget.era.daymean.1979-2020.nc
+(0)	Opening the output file...
+(0)	dble2flt: input variable is already type float: Vorticity
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-1
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Kelvin Waves in vr
+  units :	s^-1
+  _FillValue :	-999
+(0)	Kelvin Waves in vr (s^-1) : min=-4.76825e-05   max=5.1533e-05
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	dble2flt: input variable is already type float: Divergence
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-1
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Kelvin Waves in div
+  units :	s^-1
+  _FillValue :	-999
+(0)	Kelvin Waves in div (s^-1) : min=-1.5611e-05   max=1.28295e-05
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	dble2flt: input variable is already type float: Vortex stretching term (eta D)
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Kelvin Waves in vrD
+  units :	s^-2
+  _FillValue :	-999
+(0)	Kelvin Waves in vrD (s^-2) : min=-8.97292e-10   max=6.46899e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Kelvin Waves in fD
+  units :	s^-2
+  _FillValue :	-999
+(0)	Kelvin Waves in fD (s^-2) : min=-1.08201e-09   max=1.05284e-09
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Kelvin Waves in residual
+  units :	s^-2
+  _FillValue :	-999
+(0)	Kelvin Waves in residual (s^-2) : min=-7.55393e-10   max=6.85035e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	dble2flt: input variable is already type float: Vertical advection of relative vorticity
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Kelvin Waves in adv_vr_vertical
+  units :	s^-2
+  _FillValue :	-999
+(0)	Kelvin Waves in adv_vr_vertical (s^-2) : min=-7.98389e-10   max=7.61817e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Kelvin Waves in adv_vr_zonal
+  units :	s^-2
+  _FillValue :	-999
+(0)	Kelvin Waves in adv_vr_zonal (s^-2) : min=-1.06616e-09   max=1.1191e-09
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Kelvin Waves in adv_vr_meridional
+  units :	s^-2
+  _FillValue :	-999
+(0)	Kelvin Waves in adv_vr_meridional (s^-2) : min=-1.85539e-09   max=1.33769e-09
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Kelvin Waves in vr_total_source
+  units :	s^-2
+  _FillValue :	-999
+(0)	Kelvin Waves in vr_total_source (s^-2) : min=-8.7324e-10   max=9.06428e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Kelvin Waves in vr_planetary_adv
+  units :	s^-2
+  _FillValue :	-999
+(0)	Kelvin Waves in vr_planetary_adv (s^-2) : min=-2.88127e-10   max=3.0982e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Kelvin Waves in vr_tilt
+  units :	s^-2
+  _FillValue :	-999
+(0)	Kelvin Waves in vr_tilt (s^-2) : min=-9.7688e-10   max=9.70854e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Kelvin Waves in vr_stretch
+  units :	s^-2
+  _FillValue :	-999
+(0)	Kelvin Waves in vr_stretch (s^-2) : min=-1.74046e-09   max=1.63273e-09
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Kelvin Waves in adv_vr
+  units :	s^-2
+  _FillValue :	-999
+(0)	Kelvin Waves in adv_vr (s^-2) : min=-1.13297e-09   max=9.02765e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+(0)	dble2flt: input variable is already type float: Local time derivative of horizontal wind
+(0)	Calculating climatology and anomaly...
+(0)	Filtering...
+(0)	s^-2
+(0)	-30
+(0)	-27.5
+(0)	-25
+(0)	-22.5
+(0)	-20
+(0)	-17.5
+(0)	-15
+(0)	-12.5
+(0)	-10
+(0)	-7.5
+(0)	-5
+(0)	-2.5
+(0)	 0
+(0)	2.5
+(0)	 5
+(0)	7.5
+(0)	10
+(0)	12.5
+(0)	15
+(0)	17.5
+(0)	20
+(0)	22.5
+(0)	25
+(0)	27.5
+(0)	30
+
+Variable: filtered
+Type: float
+Total Size: 220910400 bytes
+            55227600 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 15341] x [lat | 25] x [lon | 144]
+Coordinates: 
+            time: [692507..1060667]
+            lat: [-30..30]
+            lon: [ 0..357.5]
+Number Of Attributes: 3
+  long_name :	Kelvin Waves in dvr_dt
+  units :	s^-2
+  _FillValue :	-999
+(0)	Kelvin Waves in dvr_dt (s^-2) : min=-7.64965e-10   max=7.39992e-10
+(0)	Writing the output file...
+(0)	Closing the output file...
+
+======================================================================================
+                  Resource Usage on 2025-10-13 00:54:30:
+   Job Id:             152160228.gadi-pbs
+   Project:            v46
+   Exit Status:        0
+   Service Units:      50.29
+   NCPUs Requested:    12                     NCPUs Used: 12              
+                                           CPU Time Used: 00:18:15        
+   Memory Requested:   100.0GB               Memory Used: 13.25GB         
+   Walltime requested: 01:40:00            Walltime Used: 00:20:07        
+   JobFS requested:    100.0MB                JobFS used: 0B              
+======================================================================================

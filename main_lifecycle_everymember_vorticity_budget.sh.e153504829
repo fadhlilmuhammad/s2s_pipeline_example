@@ -1,0 +1,77 @@
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA wet e01 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA wet e02 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA wet e03 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA wet ensmean er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA wet e01 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA wet e02 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA wet e03 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA wet ensmean mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA wet e01 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA wet e02 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA wet e03 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA wet ensmean kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA dry e01 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA dry e02 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA dry e03 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA dry ensmean er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA dry e01 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA dry e02 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA dry e03 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA dry ensmean mjo
+
+------------------------------------------------------------------------
+Job 153504829 has exceeded memory allocation on node gadi-cpu-bdw-0137.gadi.nci.org.au
+Process "bash", pid 1153564, rss 3121152, vmem 24088576
+Process "153504829.gadi-", pid 1153930, rss 2797568, vmem 228225024
+Process "perl", pid 1154331, rss 4812800, vmem 249978880
+Process "python", pid 1154355, rss 15246708736, vmem 16422375424
+Process "python", pid 1154358, rss 16550166528, vmem 17519890432
+Process "python", pid 1154359, rss 4794179584, vmem 5782016000
+Process "python", pid 1154362, rss 6171852800, vmem 7310839808
+Process "python", pid 1154365, rss 8607649792, vmem 9654501376
+Process "python", pid 1154366, rss 7512776704, vmem 8561401856
+Process "python", pid 1154369, rss 10163712000, vmem 12939718656
+Process "python", pid 1154373, rss 4614422528, vmem 5649608704
+Process "python", pid 1154376, rss 10470199296, vmem 13354397696
+Process "python", pid 1154381, rss 11927130112, vmem 19393929216
+Process "python", pid 1154385, rss 8649695232, vmem 9543938048
+Process "python", pid 1154389, rss 19517296640, vmem 20706816000
+Process "python", pid 1154395, rss 11064160256, vmem 13980000256
+Process "python", pid 1154398, rss 8855048192, vmem 9779408896
+Process "python", pid 1154401, rss 4848107520, vmem 5782327296
+Process "python", pid 1154406, rss 10829848576, vmem 16422674432
+Process "python", pid 1154415, rss 4686741504, vmem 5613780992
+Process "python", pid 1154420, rss 4657324032, vmem 5599879168
+Process "python", pid 1154421, rss 19705974784, vmem 20695654400
+Process "python", pid 1154426, rss 8519806976, vmem 9522941952
+------------------------------------------------------------------------
+For more information visit https://opus.nci.org.au/x/SwGRAQ
+------------------------------------------------------------------------
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA dry e01 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA dry e02 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA dry e03 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py NDJFMA dry ensmean kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO wet e01 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO wet e02 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO wet e03 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO wet ensmean er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO wet e01 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO wet e02 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO wet e03 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO wet ensmean mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO wet e01 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO wet e02 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO wet e03 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO wet ensmean kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO dry e01 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO dry e02 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO dry e03 er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO dry ensmean er
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO dry e01 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO dry e02 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO dry e03 mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO dry ensmean mjo
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO dry e01 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO dry e02 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO dry e03 kelvin
+python /g/data/v46/fm6730/script_access_s2/vorticity/composite/lifecycle_everymember_vorticity_budget.py MJJASO dry ensmean kelvin

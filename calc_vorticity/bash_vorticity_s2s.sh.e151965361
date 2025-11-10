@@ -1,0 +1,5 @@
+ERROR: Directory '/g/data/hh5/public/modules' not found
+ERROR: Unable to locate a modulefile for 'conda/analysis3'
+fatal: can't find file "/g/data/v46/fm6730/script_access_s2/vorticity/calc_vorticity/ncl_vorticity_s2s.ncl"
+
+

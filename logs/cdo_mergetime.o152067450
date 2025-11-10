@@ -1,0 +1,23 @@
+Creating file list...
+File list created with 42 files
+First 5 files:
+/scratch/v46/fm6730/data/obs/vorticity_budget/vorticity_budget_obs_1979_remap.nc
+/scratch/v46/fm6730/data/obs/vorticity_budget/vorticity_budget_obs_1980_remap.nc
+/scratch/v46/fm6730/data/obs/vorticity_budget/vorticity_budget_obs_1981_remap.nc
+/scratch/v46/fm6730/data/obs/vorticity_budget/vorticity_budget_obs_1982_remap.nc
+/scratch/v46/fm6730/data/obs/vorticity_budget/vorticity_budget_obs_1983_remap.nc
+Starting CDO mergetime with file list...
+SUCCESS: 5.1G	/scratch/v46/fm6730/data/obs/integrated/vorticity_budget/merged/vorticity_budget.era.daymean.1979-2020.nc
+
+======================================================================================
+                  Resource Usage on 2025-10-11 03:45:51:
+   Job Id:             152067450.gadi-pbs
+   Project:            v46
+   Exit Status:        0
+   Service Units:      0.02
+   NCPUs Requested:    4                      NCPUs Used: 4               
+                                           CPU Time Used: 00:00:01        
+   Memory Requested:   100.0GB               Memory Used: 982.25MB        
+   Walltime requested: 02:00:00            Walltime Used: 00:00:06        
+   JobFS requested:    100.0MB                JobFS used: 0B              
+======================================================================================
