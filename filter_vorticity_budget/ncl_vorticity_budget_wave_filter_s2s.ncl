@@ -1,5 +1,5 @@
-load "/g/data/v46/fm6730/script_access_s2/s2s_utils.ncl"
-load "/g/data/v46/fm6730/script_access_s2/kf_filter.ncl"
+load "/g/data/v46/fm6730/script_access_s2/vorticity_copy/s2s_utils.ncl"
+load "/g/data/v46/fm6730/script_access_s2/vorticity_copy/kf_filter.ncl"
 
 vars=(/"vr", "div", "vrD", "fD", "residual", "adv_vr_vertical", "adv_vr_zonal", "adv_vr_meridional", \\
 "vr_total_source", "vr_planetary_adv", "vr_tilt", "vr_stretch", "adv_vr", "dvr_dt"/)

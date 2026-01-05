@@ -1,7 +1,0 @@
-cdi  warning (cdfScanVarAttr): NetCDF: Variable not found - time_bnds
-
-cdo    mergetime (Abort): Outputfile /scratch/v46/fm6730/data/obs/integrated/vorticity_budget/merged/vorticity_budget.era.daymean.1979-2020.nc already exists!
-
-real	0m1.795s
-user	0m0.262s
-sys	0m0.779s

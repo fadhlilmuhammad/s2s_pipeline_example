@@ -1,6 +1,6 @@
 
 
-load "/g/data/v46/fm6730/script_access_s2/s2s_utils.ncl"
+load "/g/data/v46/fm6730/script_access_s2/vorticity_copy/s2s_utils.ncl"
 
 ; init = 19980201
 ; ens = "e01"

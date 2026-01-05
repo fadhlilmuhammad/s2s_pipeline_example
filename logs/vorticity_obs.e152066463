@@ -1,5 +1,0 @@
-rm: cannot remove '/scratch/v46/fm6730/data/obs/vorticity_budget/vorticity_budget_obs_2016_remap.nc': No such file or directory
-rm: cannot remove '/scratch/v46/fm6730/data/obs/vorticity_budget/vorticity_budget_obs_2017_remap.nc': No such file or directory
-rm: cannot remove '/scratch/v46/fm6730/data/obs/vorticity_budget/vorticity_budget_obs_2018_remap.nc': No such file or directory
-rm: cannot remove '/scratch/v46/fm6730/data/obs/vorticity_budget/vorticity_budget_obs_2019_remap.nc': No such file or directory
-rm: cannot remove '/scratch/v46/fm6730/data/obs/vorticity_budget/vorticity_budget_obs_2020_remap.nc': No such file or directory

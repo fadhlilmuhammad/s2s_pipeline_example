@@ -5,7 +5,7 @@
 ;         Int J Climatol. 2021; 41: 2418– 2440
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-load "/g/data/v46/fm6730/script_access_s2/kf_filter.ncl"
+load "/g/data/v46/fm6730/script_access_s2/vorticity_copy/kf_filter.ncl"
 
 ; wave=getenv("wave")
 wave="kelvin"
