@@ -124,9 +124,14 @@ sh main_lifecycle_everymember_vorticity_budget.sh  # Lifecycle composites
 
 ## PBS Job Submission
 
-Scripts are designed for the Gadi HPC system. Example submission:
+Some scripts are designed for the Gadi HPC system. Example submission:
 ```bash
 qsub script.sh
+```
+
+The main workflow should be submitted as follows:
+```bash
+sh main_script.sh
 ```
 
 ## Author
