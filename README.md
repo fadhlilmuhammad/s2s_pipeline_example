@@ -126,7 +126,7 @@ sh main_lifecycle_everymember_vorticity_budget.sh  # Lifecycle composites
 
 Scripts are designed for the Gadi HPC system. Example submission:
 ```bash
-qsub -l ncpus=25,mem=250gb,walltime=04:00:00,storage=gdata/v46 script.sh
+qsub script.sh
 ```
 
 ## Author
