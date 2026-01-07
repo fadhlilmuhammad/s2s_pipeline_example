@@ -24,6 +24,8 @@ vorticity_copy/
 The workflow can be shortened to two steps:
 
 ### 1. Data Retrieval
+
+This will get data from the GADI data storage. This script includes the remapping schedule. If you want to use an external dataset, skip this process and proceed to the main pipeline. Make sure the variable name and structure is applicable to the subprocess.
 ```bash
 sh _main_get_data.sh
 ```
@@ -121,6 +123,8 @@ sh main_lifecycle_everymember_vorticity_budget.sh  # Lifecycle composites
 
 - **Input data**: ACCESS-S2 hindcast data, ERA5 wind
 - **Output data**: Filtered & Padded ACCESS-S2 hindcast, Filtered Reference Data (OBS), 
+
+Feel free to change the input data as you need.
 
 ## PBS Job Submission
 
