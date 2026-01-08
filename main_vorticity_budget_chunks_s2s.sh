@@ -23,7 +23,7 @@ NROWS="${NROWS:-150}"
 INPUTS=/g/data/v46/fm6730/script_access_s2/vorticity/calc_vorticity_budget/dates_with_$E.txt  # Each line in this file is a script to run
 
 # INPUTS=/g/data/v46/fm6730/script_access_s2/vimfc/patch_input.txt  # Each line in this file is a script to run
-PARALLEL_JOBS=10  # Use 20 cores
+PARALLEL_JOBS=10  # Use 10 cores
 SCRIPT=/g/data/v46/fm6730/script_access_s2/vorticity/calc_vorticity_budget/bash_vorticity_budget_s2s.sh
 echo $INPUTS
 cat ${INPUTS}
