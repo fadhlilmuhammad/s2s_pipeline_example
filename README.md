@@ -44,7 +44,7 @@ sh _main_run_all_jobs.sh
 ```bash
 sh _main_get_data.sh
 ```
-Downloads required ACCESS-S2 data for processing.
+Get the required ACCESS-S2 and ERA5 data for processing.
 
 ### 2. Data Preparation
 ```bash
