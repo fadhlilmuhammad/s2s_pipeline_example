@@ -64,6 +64,12 @@ Calculates vorticity budget terms including:
 - Stretching term
 - Tilting term
 
+also include:
+- Vorticity
+- Divergence
+
+Due to the size of the outputs, chunking is required to save memory, or the job will take a long time to queue or run. The chunking subprocess is available in main_vorticity_budget_chunks_s2s.sh.
+
 ### 4. Ensemble Mean
 ```bash
 sh main_ensmean_vorticity_budget.sh
