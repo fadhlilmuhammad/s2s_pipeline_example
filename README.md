@@ -59,6 +59,7 @@ sh main_vorticity_budget_obs.sh      # For observations/reanalysis
 ```
 Calculates vorticity budget terms including:
 - Vorticity tendency
+- Planetary vorticity advection
 - Horizontal advection
 - Vertical advection
 - Stretching term
