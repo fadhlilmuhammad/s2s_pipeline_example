@@ -29,7 +29,7 @@ This will get data from the GADI data storage. This script includes the remappin
 ```bash
 sh _main_get_data.sh
 ```
-Downloads required ACCESS-S2 data for processing.
+Get the required ACCESS-S2 and ERA5 data for processing.
 
 ### 2. Main Pipeline
 ```bash
